@@ -14,12 +14,12 @@ const doc = {
   },
   host: isProduction
     ? 'creation-based-event-planner-lc2-w4.onrender.com'
-    : 'localhost:3000',
+    : 'localhost:50000',
   schemes: isProduction ? ['https'] : ['http'],
 };
 
-const outputFile = './swagger.json';
-const endpointsFiles = ['./routes/index.js', 'index.js'];
+const outputFile = '../swagger.json';
+const endpointsFiles = ['./routes/index.js'];
 
 /* NOTE: If you are using the express Router, you must pass in the 'routes' only the 
 root file where the route starts, such as index.js, app.js, routes.js, etc ... */

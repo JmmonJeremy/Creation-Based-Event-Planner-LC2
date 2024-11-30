@@ -2,13 +2,13 @@
   "name": "P2-Web-Services-W1",
   "version": "1.0.0",
   "description": "Goal Creation Process App Personal Project",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node index.js",
-    "devStart": "cross-env NODE_ENV=development nodemon index.js",
+    "start": "cross-env NODE_ENV=production node dist/server.js",
+    "devStart": "cross-env NODE_ENV=development nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "swagger": "node ./swagger.js",
-    "pro-swagger": "cross-env NODE_ENV=production node ./swagger.js"
+    "swagger": "node src/swagger.js",
+    "pro-swagger": "cross-env NODE_ENV=production node src/swagger.js"
   },
   "repository": {
     "type": "git",
